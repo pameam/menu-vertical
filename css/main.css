@@ -1,0 +1,16 @@
+.container{
+  width: 300px;
+  height: 200px;
+  background-color: yellow;
+}
+.barra1{
+  background-color: red;
+  line-height: 25px;
+
+
+
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
