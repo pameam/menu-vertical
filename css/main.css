@@ -5,6 +5,9 @@ body{
 nav{
   width: 200px;
 }
+/*list-style para quitar las viñetas de una lista*/
+ /*usamos un padding y margin 0 para que la lista ocupe el espacio dejado de las viñetas*/
+  /*line-height para ampliar el alto de la linea*/
 ul{
   list-style: none;
   margin: 0;
@@ -16,7 +19,8 @@ ul{
 li{
   background: #f5f5f0;
 }
-
+ /*text-decoration para borrar la linea del link*/
+ /*display:block para que la lista se comporte como un bloque*/
 a{
   display:block;
   text-decoration: none;
@@ -29,15 +33,18 @@ a:hover{
 a:active{
   background: #333;
 }
+/* usamos :first-child para seleccionar el primer enlace de la lista */
 ul li:first-child{
   background: #f9a91a;
 }
 ul li:first-child a{
   color: #fff;
 }
+  /* usamos hover para poner efecto al pasar el mouse*/
 ul li:first-child a:hover{
   color: #000;
 }
+/* usamos active para poner efecto al hacer click en el enlace*/
 ul li:first-child a:active{
   color: #fff;
 }
